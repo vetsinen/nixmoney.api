@@ -26,7 +26,7 @@
         передать во все подтверждающие URL: STATUS_URL,
         PAYMENT_URL, NOPAYMENT_URL (например: «NAME
         SOMEFIELD ANY»): any </p>
-    <p><input type='text' name='PAYMENT_ID'/> - PAYMENT_ID (опционально)
+    <p><input type='text' name='PAYMENT_ID' value="<?php echo rand(1000000,9999999);?>"/> - PAYMENT_ID (опционально)
         Номер платежного требования. Уникален в
         пределах одного принимающего счета.: </p>
     <p><input type='text' name='STATUS_URL' value='https://sheltered-citadel-81659.herokuapp.com/status.php'/> - STATUS_URL (опционально)
