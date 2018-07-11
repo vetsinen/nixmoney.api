@@ -17,7 +17,7 @@
     <label><input type='text' name='PAYEE_NAME' value='interkassa-test'/> - PAYEE_NAME Наименование, которое будет указана во время приема
         средств на принимающей стороне.: </label>
     <label><input type='text' name='PAYMENT_AMOUNT' value='0.01'/> - PAYMENT_AMOUNT Сумма к переводу (XXXX.XX): </label>
-        <label><input type='text' name='PAYMENT_FROM' value='interkassa-sender'/> - PAYMENT_SENDER whoe sends </label>
+        <p><input type='text' name='PAYMENT_FROM' value='interkassa-sender'/> - PAYMENT_SENDER whoe sends </p>
     <p><input type='text' name='PAYMENT_URL' value='https://sheltered-citadel-81659.herokuapp.com/ok.php'> - PAYMENT_URL URL на который будет перенаправлен браузер клиента в
         случае успешной транзакции.: </p>
     <p><input type='text' name='NOPAYMENT_URL' value='https://sheltered-citadel-81659.herokuapp.com/no.php'/> - NOPAYMENT_URL URL на который будет перенаправлен браузер клиента в
