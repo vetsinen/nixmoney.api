@@ -2,8 +2,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <head>
     <title>NixMoney Transaction (WWW.NIXMONEY.COM - версия для примера)</title>
-    <link rel="stylesheet" href="../bootstrap.css">
-    <script src="../bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
 </head>
 <h2>(www.nixmoney.com - версия для примера)
     NixMoney Transaction, простейший пример.</h2>
@@ -18,9 +18,9 @@
         средств на принимающей стороне.: </label>
     <label><input type='text' name='PAYMENT_AMOUNT' value='0.01'/> - PAYMENT_AMOUNT Сумма к переводу (XXXX.XX): </label>
         <label><input type='text' name='PAYMENT_FROM' value='interkassa-sender'/> - PAYMENT_SENDER whoe sends </label>
-    <p><input type='text' name='PAYMENT_URL' value='http://nixmoney.api:8000/merchant/ok.php'> - PAYMENT_URL URL на который будет перенаправлен браузер клиента в
+    <p><input type='text' name='PAYMENT_URL' value='https://sheltered-citadel-81659.herokuapp.com/ok.php'> - PAYMENT_URL URL на который будет перенаправлен браузер клиента в
         случае успешной транзакции.: </p>
-    <p><input type='text' name='NOPAYMENT_URL' value='http://nixmoney.api:8000/merchant/no.php'/> - NOPAYMENT_URL URL на который будет перенаправлен браузер клиента в
+    <p><input type='text' name='NOPAYMENT_URL' value='https://sheltered-citadel-81659.herokuapp.com/no.php'/> - NOPAYMENT_URL URL на который будет перенаправлен браузер клиента в
         случае неудачной транзакции (или отмены транзакции): </p>
     <p><input type='text' name='BAGGAGE_FIELDS'/> - BAGGAGE_FIELDS Перечисленные через пробел поля, которые необходимо
         передать во все подтверждающие URL: STATUS_URL,
@@ -29,7 +29,7 @@
     <p><input type='text' name='PAYMENT_ID'/> - PAYMENT_ID (опционально)
         Номер платежного требования. Уникален в
         пределах одного принимающего счета.: </p>
-    <p><input type='text' name='STATUS_URL' value='http://nixmoney.api:8000/merchant/status.php'/> - STATUS_URL (опционально)
+    <p><input type='text' name='STATUS_URL' value='https://sheltered-citadel-81659.herokuapp.com/status.php'/> - STATUS_URL (опционально)
         URL на который будет отправлена нотификация
         об успешном проведении транзакции.:
     </p>

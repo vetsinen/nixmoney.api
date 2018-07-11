@@ -13,6 +13,4 @@ PAYMENT_ID:PAYEE_ACCOUNT:PAYMENT_AMOUNT:PAYMENT_UNITS:PAYMENT_BATCH_NUM:PAYER_AC
 $v2key=$_POST['V2_HASH'];
 $hash=strtoupper(md5($string));
   
-if($hash==$v2key) mail("speaknfun@yopmail.com", "ok. we got payment", "Line 1\nLine 2\nLine 3");
-
- ?>
+if($hash==$v2key) error_log( "we got bablo ".$_POST['PAYMENT_AMOUNT']);
