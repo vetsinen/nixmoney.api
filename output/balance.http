@@ -1,0 +1,8 @@
+GET https://www.nixmoney.com/balance?ACCOUNTID=v.godzevich@interkassa.com&PASSPHRASE=nixmoney
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-11T125947.200.html
+
+###
+

@@ -1,0 +1,11 @@
+GET https://www.nixmoney.com/history?ACCOUNTID=v.godzevich@interkassa.com&PASSPHRASE=nixmoney&ENDYEAR=2018
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://www.nixmoney.com/resolve?ACCOUNTID=v.godzevich@interkassa.com&PASSPHRASE=nixmoney&RESOLVE=v.godzevich@interkassa.com&TYPE=USD
+Accept: */*
+Cache-Control: no-cache
+
+###
