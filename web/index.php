@@ -11,7 +11,7 @@
 <body>
 <?php
 
-echo 'index.php';
+echo 'this is shelter';
 error_log("index.php launched!");
 ?>
 </body>
