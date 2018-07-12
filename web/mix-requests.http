@@ -9,3 +9,20 @@ Accept: */*
 Cache-Control: no-cache
 
 ###
+
+GET https://www.liqpay.com/api/pay
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://api.interkassa.com/v1/paysystem-input-payway
+Accept: */*
+Cache-Control: no-cache
+
+###
+GET https://api.interkassa.com/v1/currency
+Accept: */*
+Cache-Control: no-cache
+
+###
